@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Оставить поздравления</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="section navbar-brand hidden-lg">
+                    <div class="menu-block">
+                        <div>
+                            <a href="#" class="menu-button">
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dropdown-menu2">
+                            <ul class="dropdown-mobile dropdown-menu">
+                                <li><a href="index.html">Главная</a></li>
+                                <li id="attachment"><a href="katalog.html">Каталог продукции</a></li>
+                                <li><a href="biography.html">Биография</a></li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-expanded="false">
+                                        Научные статьи <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu_brown dropdown-menu_lang" role="menu">
+                                        <li><a href="biophysics.html">Биофизика</a></li>
+                                        <li><a href="bioplasma_geoplasma.html">Биоплазма и геоплазма</a></li>
+                                        <li><a href="bioenergetics.html">Биоэнергетика</a></li>
+                                        <li><a href="biopole.html">Биополе</a></li>
+                                        <li><a href="hydroplasm.html">Гидроплазма</a></li>
+                                        <li><a href="laser_processing.html">Лазерная агротехника</a></li>
+                                        <li><a href="zest.html">Плазма</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="index.html#contacts">Контакты</a></li>
+
+                            </ul>
+                        </div>
+
+                        <a class="navbar-brand hidden-lg" style="font-size: 20px;" href="#">В.М.Инюшин</a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="navbar" class="collapse navbar-collapse smooth-scroll scrollspy">
+                <div class="nav-editer">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Главная</a></li>
+                        <li id="attachment"><a href="katalog.html">Каталог продукции</a></li>
+                        <li><a href="biography.html">Биография</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false">
+                                Научные статьи <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu_brown dropdown-menu_lang" role="menu">
+                                <li><a href="biophysics.html">Биофизика</a></li>
+                                <li><a href="bioplasma_geoplasma.html">Биоплазма и геоплазма</a></li>
+                                <li><a href="bioenergetics.html">Биоэнергетика</a></li>
+                                <li><a href="biopole.html">Биополе</a></li>
+                                <li><a href="hydroplasm.html">Гидроплазма</a></li>
+                                <li><a href="laser_processing.html">Лазерная агротехника</a></li>
+                                <li><a href="zest.html">Плазма</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="contacts2">
+        <div class="contacts2">
+            <div class="row">
+                <div>
+                    <div>
+                        <div style="text-align: center;">
+                            <h2 style="text-align: center;">Здесь вы можете поздравить <br />Виктора
+                                Михайловича Инюшина
+                            </h2>
+                            <h3>Добавить поздравление</h3>
+                            <p>
+                                <italic>Ваш e-mail не будет опубликован. Обязательные поля помечены *</italic>
+                            </p>
+                        </div>
+                    </div>
+                    <form id="form_contact" method="POST" action="" class="form-horizontal">
+                        <div class="form-group">
+                            <div class="new-box-style">
+                                <label class="control-label"><b>Ваши поздравления*</b></label>
+                                <textarea type="text" rows="10" class="form-control" id="content" name="content"
+                                    placeholder="Введите текст" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group new-box-style">
+                            <div class="new-box-style">
+                                <label for="name" class="control-label">Имя *</label>
+                                <input type="text" name="name" class="form-control" id="name"
+                                    placeholder="Введите ваше имя" required>
+                            </div>
+                        </div>
+                        <div class="form-group new-box-style">
+                            <div>
+                                <label for="email" class="control-label">E-mail *</label>
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="Введите email" required>
+                            </div>
+                        </div>
+                        <div class="form-group new-box-style">
+                            <div>
+                                <label for="phone" class="control-label">Телефон</label>
+                                <input type="text" name="phone" class="form-control" id="phone"
+                                    placeholder="Введите ваш телефон">
+                            </div>
+                        </div>
+                        <div class="form-group new-box-style">
+                            <button type="submit" class="btn btn-primary" id="new-button"
+                                name="btn_send">Поздравить :)
+                            </button>
+                            <!-- <a href="#" class="btn btn-sm animated-button victoria-one">
+                                Поздравить :)
+                            </a> -->
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="footer"></div>
+    </footer>
+
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
